@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "name": "맥주",
+    "thumbnail_img": "/Images/CountryPageImage/countrypage1.jpg",
+    "discounted_price": "1,100,000",
+    "reviews": "상품후기(13)",
+    "made_in" :"한국",
+    "price": 500000,  
+    "discount_rate": 15,
+    "sell": 500
+  },
+
+{
+    "id": 2,
+    "name": "양주",
+    "thumbnail_img": "/Images/CountryPageImage/countrypage2.jpg",
+    "price": 3000000,
+    "discounted_price": "1,100,000",
+    "reviews": "상품후기(200+)",
+    "made_in" :"한국",
+    "sell": 400,
+    "discount_rate": 200
+}
+,{
+  "id": 3,
+    "name": "소주",
+    "thumbnail_img": "/Images/CountryPageImage/countrypage3.jpg",
+    "price": 3300330,
+    "discounted_price": "1,200,000",
+    "reviews": "상품후기(10000++)",
+    "made_in" :"한국",
+    "sell": 300,
+    "discount_rate": 300
+
+},
+{
+  "id": 4,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage4.jpg",
+  "price": 3230330,
+  "discounted_price": "2,100,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"한국",
+  "sell": 600,
+  "discount_rate": 0
+
+},
+{
+  "id": 5,
+  "name": "양주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage5.jpg",
+  "price": 1000330,
+  "discounted_price": "100,000",
+  "reviews": "상품후기(200+)",
+  "made_in" :"한국",
+  "sell": 1000,
+  "discount_rate": 0
+
+},
+{
+"id": 6,
+  "name": "소주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage6.jpg",
+  "price": 3300330,
+  "discounted_price": "200,000",
+  "reviews": "상품후기(10000++)",
+  "made_in" :"한국",
+  "sell": 10000,
+  "discount_rate": 0
+
+},{
+  "id": 7,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage7.jpg",
+  "price": 1100000,
+  "discounted_price": "900,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"한국",
+  "sell": 100000,
+  "discount_rate": 0
+
+},
+{
+  "id": 8,
+  "name": "양주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage8.jpg",
+  "price": 3000000,
+  "reviews": "상품후기(200+)",
+  "discounted_price": "900,000",
+  "made_in" :"미국",
+  "sell": 1,
+  "discount_rate": 50
+}
+,{
+ "id": 9,
+  "name": "소주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage9.jpg",
+  "price": 3300330,
+  "discounted_price": "105,000",
+  "reviews": "상품후기(10000++)",  
+  "made_in" :"미국",
+  "discount_rate": 50,
+  "sell": 12
+},
+{
+"id": 10,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/countrypage10.jpg",
+"price": 3300330,
+"discounted_price": "120,000",
+"reviews": "상품후기(13)",
+"made_in" :"일본",
+"discount_rate": 100,
+"sell": 199
+},
+{
+"id": 11,
+"name": "양주",
+"thumbnail_img": "/Images/CountryPageImage/countrypage11.jpg",
+"price": 3300330,
+"discounted_price": "240,000",
+"reviews": "상품후기(200+)",
+"made_in" :"일본",
+"discount_rate": 0,
+
+"sell": 1212
+}
+,
+{
+"id": 12,
+"name": "소주",
+"thumbnail_img": "/Images/CountryPageImage/countrypage12.jpg",
+"price": 3300331,
+"discounted_price": "300,000",
+"reviews": "상품후기(10000++)",
+"made_in" :"일본",
+"discount_rate": 0,
+
+"sell": 221
+},
+{
+  "id": 13,
+  "name": "소주",
+  "thumbnail_img": "/Images/CountryPageImage/countrypage13.jpg",
+  "price": 3300332,
+  "discounted_price": "300,000",
+  "reviews": "상품후기(10000++)",
+  "made_in" :"일본",
+  "discount_rate": 0,
+  "sell": 22222
+
+  
+},
+{
+  "id": 14,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/korea1.jpg",
+  "price": 3300000,
+  "discounted_price": "300,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"일본",
+  "discount_rate": 0,
+
+  "sell": 2218888
+},
+{
+"id": 15,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/korea2.jpg",
+"price": 3100000,
+"reviews": "상품후기(13)",
+"made_in" :"일본",
+"sell": 2210909
+},
+{
+  "id": 16,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/korea3.jpg",
+  "price": 3000000,
+  "discounted_price": "1,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"일본",
+  "sell": 5555
+},
+{
+ "id": 17,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/korea4.jpg",
+  "price": 2100000,
+  "discounted_price": "12,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"벨기에",
+  "sell": 22166666
+},
+{
+"id": 18,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/korea5.jpg",
+"price": 1900000,
+"discounted_price": "80,000",
+"reviews": "상품후기(13)",
+"made_in" :"벨기에",
+"sell": 22177777
+},
+{
+"id": 19,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/korea6.jpg",
+"price": 1400000,
+"discounted_price": "180,000",
+"reviews": "상품후기(13)",
+"made_in" :"벨기에",
+"sell": 2212000
+},
+{
+  "id": 20,
+  "name": "맥주",
+  "thumbnail_img": "/Images/CountryPageImage/korea7.jpg",
+  "price": 310000,
+  "discounted_price": "80,000",
+  "reviews": "상품후기(13)",
+  "made_in" :"스페인",
+  "sell": 211111
+},
+{
+"id": 21,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/korea8.jpg",
+"price": 34000,
+"discounted_price": "180,000",
+"reviews": "상품후기(13)",
+"made_in" :"스페인",
+"sell":9309489
+},
+{
+"id": 22,
+"name": "맥주",
+"thumbnail_img": "/Images/CountryPageImage/korea10.jpg",
+"price": 110000,
+"discounted_price": "90,000",
+"reviews": "상품후기(13)",
+"made_in" :"이탈리아",
+"sell": 23124
+
+}
+]

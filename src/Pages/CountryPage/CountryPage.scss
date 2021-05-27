@@ -1,0 +1,122 @@
+.mainPageSection {
+  margin: 40px 60px;
+}
+.mainPage {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  .liquorTitle {
+    color: lightseagreen;
+    transition: 1s;
+    text-shadow: 0px 10px 10px lightgreen;
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+.countryTable {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 50px 0;
+
+  .country {
+    padding: 15px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+  .country:hover {
+    cursor: pointer;
+  }
+}
+.productDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: lightpink;
+  opacity: 0.5;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  border-radius: 10px;
+
+  .productLine {
+    display: flex;
+    font-size: 14px;
+
+    .lineList {
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+
+      .fa-circle {
+        margin-right: 3px;
+        font-size: 1px;
+        font-weight: 300;
+      }
+    }
+    .lineList:hover {
+      cursor: pointer;
+    }
+  }
+}
+.countryProduct {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 100px) / 3));
+  grid-gap: 50px;
+  margin-top: 30px;
+}
+.mainData {
+  position: relative;
+  margin: 30px 0;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .fa-shopping-cart {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
+.mainData:hover {
+  .fa-shopping-cart {
+    display: none;
+  }
+}
+.productName {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.costBox {
+  display: flex;
+  .productPrimeCost {
+    display: flex;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .discount {
+    font-size: 14px;
+    color: red;
+  }
+}
+
+.productSalePrice {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 200;
+  text-decoration: line-through;
+}
+.productPostscript {
+  margin: 10px 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+.page {
+  justify-content: center;
+}
