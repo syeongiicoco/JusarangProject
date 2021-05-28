@@ -1,0 +1,93 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.scrollBox {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  border-radius: 20px;
+}
+.couponBox {
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+.coupon {
+  width: 80px;
+  padding: 14px 0 14px;
+  text-decoration: none;
+  background-color: #dc2d4e;
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: initial;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid lightgray;
+}
+.sidebar {
+  padding: 15px 0 17px;
+  font-size: 13px;
+  font-weight: 350;
+  line-height: initial;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+.sidebarLast {
+  display: flex;
+  justify-content: center;
+  // padding: 15px 0 17px;
+  color: lightgray;
+  border-bottom: 1px solid lightgray;
+
+  .smallSidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    font-size: 14px;
+  }
+}
+.sidebarBtn {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  background-color: rgba(211, 211, 211, 0.5);
+  border-radius: 0 0 20px 20px;
+
+  .fa-chevron-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 15px;
+  }
+  .fa-chevron-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 15px;
+  }
+}
+.homeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0 14px;
+  .fa-home {
+    margin-right: 6px;
+    font-size: 15px;
+  }
+  .iconName {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
