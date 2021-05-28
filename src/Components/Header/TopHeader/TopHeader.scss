@@ -1,0 +1,63 @@
+.header {
+  width: 100vw;
+  .topHeader {
+    padding: 25px 60px;
+  }
+}
+.newsBox {
+  display: flex;
+}
+.topNews {
+  display: flex;
+  height: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+
+  .notion {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .notionBtn {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 8px;
+  }
+  .news {
+    display: flex;
+    align-items: center;
+  }
+  .newsList {
+    height: 20px;
+    margin-left: 10px;
+
+    .list {
+      display: flex;
+      height: 20px;
+      align-items: center;
+    }
+
+    .changeNews {
+      text-decoration: none;
+      font-size: 15px;
+      color: black;
+    }
+  }
+}
+
+.menuList {
+  display: flex;
+  justify-content: flex-end;
+
+  .topMenu {
+    display: flex;
+    align-items: center;
+  }
+  .goMenu {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}

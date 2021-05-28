@@ -1,14 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import BestPage from './Pages/BestPage/BestPage';
+import Header from './Components/Header/Header';
 
 class Routes extends React.Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/" component={BestPage} />
-        </Switch>
+        <Header />
+        <Switch>{/* <Route exact path="/" component={MainPage} /> */}</Switch>
       </Router>
     );
   }

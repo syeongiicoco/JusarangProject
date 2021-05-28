@@ -1,0 +1,69 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 60px;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid lightgray;
+
+  .hiddenButton {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonBox {
+    display: flex;
+  }
+  .buttonCategory {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+
+    .fa-bars {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .fa-chevron-down {
+      margin-left: 18px;
+    }
+  }
+}
+.downListBar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
+.downCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+  margin-top: 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.downList {
+  text-align: center;
+  list-style: none;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+
+  .fa-grip-lines-vertical {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.buttonBox {
+  display: flex;
+}
