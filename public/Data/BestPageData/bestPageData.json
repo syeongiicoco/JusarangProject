@@ -1,0 +1,100 @@
+[
+  {
+  "id":1,
+  "img":"./Images/BestPageImage/drink1.jpg",
+  "name":"소주",
+  "price":"36,200원",
+  "amount":"판매수량(100)",
+  "postscript":"상품후기(93)"
+ },
+ {
+  "id":2,
+  "img":"./Images/BestPageImage/drink2.jpg",
+  "name":"양주",
+  "price":"36,600원",
+  "amount":"판매수량(20)",
+  "postscript":"상품후기(93)"
+
+ },
+ {
+  "id":3,
+  "img":"./Images/BestPageImage/drink3.jpg",
+  "name":"데낄라",
+  "price":"90,000원",
+  "amount":"판매수량(450)",
+  "postscript":"상품후기(93)"
+
+ },
+ {
+  "id":4,
+  "img":"./Images/BestPageImage/drink4.jpg",
+  "name":"막걸리",
+  "price":"80,000원",
+  "amount":"판매수량(590)",
+  "postscript":"상품후기(93)"
+
+ },
+ {
+  "id":5,
+  "img":"./Images/BestPageImage/drink5.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+ },
+ {
+  "id":6,
+  "img":"./Images/BestPageImage/drink6.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ },
+ {
+  "id":7,
+  "img":"./Images/BestPageImage/drink7.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ },
+ {
+  "id":8,
+  "img":"./Images/BestPageImage/drink8.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ },
+ {
+  "id":9,
+  "img":"./Images/BestPageImage/drink9.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ },
+ {
+  "id":10,
+  "img":"./Images/BestPageImage/drink10.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ },
+ {
+  "id":11,
+  "img":"./Images/BestPageImage/drink11.jpg",
+  "name":"셩이",
+  "price":"100,000원",
+  "amount":"판매수량(1090)",
+  "postscript":"상품후기(999+)"
+
+ }
+
+]
