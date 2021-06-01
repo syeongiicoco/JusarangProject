@@ -1,0 +1,23 @@
+.footerBox {
+  width: 100vw;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+  .footerMenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .listBox {
+      display: flex;
+      color: lightgray;
+    }
+    .footerMenuList {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 11px;
+      text-align: center;
+      color: black;
+    }
+  }
+}
