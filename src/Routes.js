@@ -7,6 +7,7 @@ import MainPage from './Pages/MainPage/MainPage';
 import Scroll from './Components/Scroll/Scroll';
 import Login from './Pages/Login/Login';
 import CountryPage from './Pages/CountryPage/CountryPage';
+import SignIn from './Pages/SignIn/SignIn';
 
 class Routes extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class Routes extends React.Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/bestpage" component={BestPage} />
           <Route exact path="/country/:id" component={CountryPage} />
+          <Route exact path="/signin" component={SignIn} />
         </Switch>
         <Footer />
       </Router>
