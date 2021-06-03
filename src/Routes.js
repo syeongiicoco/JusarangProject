@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import MainPage from './Pages/MainPage/MainPage';
 import Footer from './Components/Footer/Footer';
-import Login from './Pages/Login/Login';
+import BestPage from './Pages/BestPage/BestPage';
 import MainPage from './Pages/MainPage/MainPage';
 import Scroll from './Components/Scroll/Scroll';
 
@@ -13,6 +12,7 @@ class Routes extends React.Component {
         <Scroll />
         <Switch>
           <Route exact path="/" component={MainPage} />
+          <Route exact path="/bestpage" component={BestPage} />
         </Switch>
         <Footer />
       </Router>
