@@ -19,7 +19,7 @@ class Login extends Component {
     //     password: this.state.userPw,
     //   }),
     // })
-    fetch('http://10.58.7.220:8000/api/token/', {
+    fetch('http://10.58.3.138:8000/user/signin', {
       method: 'POST',
       body: JSON.stringify({
         email: 'johnywhisky@gmail.com',

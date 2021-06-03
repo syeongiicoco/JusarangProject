@@ -36,13 +36,10 @@ class Scroll extends Component {
             <div className="smallSidebar">최근본상품</div>
           </div>
           <div className="sidebarBtn">
-            <i
-              class="fas fa-chevron-up"
-              onClick={(this.goUp, window.scrollTo(0, 0))}
-            />
+            <i class="fas fa-chevron-up" onClick={this.scrollToTop} />
             <i class="fas fa-chevron-down" />
           </div>
-          <div className="homeBtn" onClick={this.scrollToTop}>
+          <div className="homeBtn">
             <i class="fas fa-home" />
             <p className="iconName">HOME</p>
           </div>
