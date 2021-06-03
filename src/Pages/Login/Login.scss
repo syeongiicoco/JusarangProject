@@ -1,0 +1,75 @@
+.loginTitle {
+  margin: 100px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700px;
+}
+.loginBox {
+  display: flex;
+  justify-content: center;
+}
+.memberLogin {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  width: 40%;
+  border-right: 1px solid lightgray;
+}
+.loginText {
+  text-align: center;
+  font-size: 20px;
+}
+.loginBtn {
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 35px;
+  background-color: gray;
+  color: white;
+}
+.loginId {
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 30px;
+}
+.loginPw {
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 30px;
+}
+.easyLogin {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.snsBtn {
+  margin-top: 10px;
+  height: 35px;
+}
+.snsDetail {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.signInBtn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid lightgray;
+}
+.signInText {
+  margin: 10px 20px;
+  font-size: 20px;
+}
+.signInDetail {
+  margin: 0 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.signIn {
+  position: absolute;
+  right: 15px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
