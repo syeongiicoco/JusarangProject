@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+
 import './Nav.scss';
 
 class Nav extends Component {
@@ -13,6 +15,12 @@ class Nav extends Component {
     this.setState({
       navHidden: !this.state.navHidden,
     });
+  };
+  goBest = () => {
+    this.props.history.push('/bestpage');
+  };
+  goCountry = () => {
+    this.props.history.push('/country/:id');
   };
 
   render() {
@@ -29,9 +37,15 @@ class Nav extends Component {
                 </div>
                 {this.state.navHidden && (
                   <div className="downCategory">
-                    {DRINKS.map((drink, key) => {
+                    <li className="downList" onClick={this.goBest}>
+                      베스트
+                    </li>
+                    <li className="downList" onClick={this.goCountry}>
+                      국가별주류
+                    </li>
+                    {DRINKS.map((drink, index) => {
                       return (
-                        <li key={key} className="downList">
+                        <li key={index} className="downList">
                           {drink}
                         </li>
                       );
@@ -40,9 +54,17 @@ class Nav extends Component {
                 )}
               </button>
               <div className="menu">
-                {NAVS.map((nav, key) => {
+                <div className="category" onClick={this.goCountry}>
+                  국가별주류
+                  <i class="fas fa-grip-lines-vertical"></i>
+                </div>
+                <div className="category" onClick={this.goBest}>
+                  베스트
+                  <i class="fas fa-grip-lines-vertical"></i>
+                </div>
+                {NAVS.map((nav, index) => {
                   return (
-                    <div key={key} className="category">
+                    <div key={index} className="category">
                       {nav}
                       <i class="fas fa-grip-lines-vertical"></i>
                     </div>
@@ -57,13 +79,6 @@ class Nav extends Component {
   }
 }
 
-export default Nav;
-const NAVS = [
-  '베스트 ',
-  '국가별주류 ',
-  '고객센터 ',
-  '기획전 ',
-  '이벤트 ',
-  '레시피',
-];
-const DRINKS = ['국가별주류', '맥주', '위스키', '보드카', '막걸리', '소주'];
+export default withRouter(Nav);
+const NAVS = ['고객센터 ', '기획전 ', '이벤트 ', '레시피'];
+const DRINKS = ['맥주', '위스키', '보드카', '막걸리', '소주'];

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './TopHeader.scss';
 
@@ -15,6 +16,9 @@ class TopHeader extends Component {
       this.setState({ num: num + 1 > 3 ? 0 : num + 1 });
     }, 4000);
   }
+  goLogin = () => {
+    this.props.history.push('/login');
+  };
 
   render() {
     return (
@@ -78,6 +82,9 @@ class TopHeader extends Component {
               <div className="menuList">
                 {/* <div className="right"> */}
                 <ul className="topMenu">
+                  <li className="goMenu" onClick={this.goLogin}>
+                    로그인
+                  </li>
                   {MENUS.map((menu, key) => {
                     return (
                       <li key={key} className="goMenu">
@@ -96,5 +103,5 @@ class TopHeader extends Component {
   }
 }
 
-export default TopHeader;
-const MENUS = ['로그인', '회원가입', '마이페이지', '주문조회', '고객센터'];
+export default withRouter(TopHeader);
+const MENUS = ['회원가입', '마이페이지', '주문조회', '고객센터'];

@@ -32,20 +32,20 @@ class MainPage extends Component {
 
   nextButton = () => {
     const { x } = this.state;
-    if (x === -25) {
+    if (x === -320) {
       return;
     }
 
-    this.setState({ x: x - 25 });
+    this.setState({ x: x - 320 });
   };
 
   beforeButton = () => {
     const { x } = this.state;
-    if (x === +25) {
+    if (x === +320) {
       return;
     }
 
-    this.setState({ x: x + 25 }, () => {
+    this.setState({ x: x + 320 }, () => {
       console.log(this.state.x);
     });
   };
@@ -88,7 +88,7 @@ class MainPage extends Component {
             <div className="todayHotDealInfo">
               <div
                 className="todayHotDealImgBox"
-                style={{ transform: `translateX(${x}%)` }}
+                style={{ transform: `translateX(${x}px)` }}
               >
                 {this.state.centerPageData.map((centerData, key) => {
                   return (

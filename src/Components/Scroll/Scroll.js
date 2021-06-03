@@ -13,11 +13,10 @@ class Scroll extends Component {
   };
 
   goMain = () => {
-    this.props.history.push('/mainpage');
+    this.props.history.push('/');
   };
 
   render() {
-    console.log(this.scrollToTop);
     return (
       <aside className="container">
         <div className="scrollBox">
@@ -39,7 +38,7 @@ class Scroll extends Component {
             <i class="fas fa-chevron-up" onClick={this.scrollToTop} />
             <i class="fas fa-chevron-down" />
           </div>
-          <div className="homeBtn">
+          <div className="homeBtn" onClick={this.goMain}>
             <i class="fas fa-home" />
             <p className="iconName">HOME</p>
           </div>

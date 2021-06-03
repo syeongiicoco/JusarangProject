@@ -38,6 +38,7 @@
 }
 .downCategory {
   display: flex;
+  z-index: 10000;
   flex-direction: column;
   align-items: center;
   width: -webkit-fill-available;
