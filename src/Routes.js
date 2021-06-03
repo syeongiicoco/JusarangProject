@@ -1,24 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-<<<<<<< HEAD
 // import MainPage from './Pages/MainPage/MainPage';
 import Footer from './Components/Footer/Footer';
-=======
 import Login from './Pages/Login/Login';
->>>>>>> c34ed09 (login layout)
+import MainPage from './Pages/MainPage/MainPage';
+import Scroll from './Components/Scroll/Scroll';
 
 class Routes extends React.Component {
   render() {
     return (
       <Router>
-<<<<<<< HEAD
-        <Switch>{/* <Route exact path="/" component={MainPage} /> */}</Switch>
-        <Footer />
-=======
+        <Scroll />
         <Switch>
-          <Route exact path="/" component={Login} />
+          <Route exact path="/" component={MainPage} />
         </Switch>
->>>>>>> c34ed09 (login layout)
+        <Footer />
       </Router>
     );
   }
