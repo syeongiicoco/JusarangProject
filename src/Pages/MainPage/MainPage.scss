@@ -1,3 +1,127 @@
-.mainPage {
+.slideBox {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background: round;
+}
+.centerBox {
+  margin: 0 20px;
+  margin-bottom: 50px;
+}
+.centerText {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  font-size: 27px;
+  font-weight: 500;
+}
+.happyExhivition {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 100px) / 3));
+  grid-gap: 50px;
+}
+.exhibition {
+  display: flex;
+  position: relative;
+}
+.happyBox {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.happyBoxTopText:hover {
+  color: lightpink;
+}
+.happyBoxTopText {
+  position: absolute;
+  margin-left: 10px;
+  bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+.happyBoxBottomText {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin-right: 5px;
+  font-size: 15px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+}
+.centerBanner {
+  height: 250px;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.todayHotDeal {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  .todayHotDealText {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 27px;
+    font-weight: 800;
+  }
+  .todayHotDealInfo {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+
+    .todayHotDealImgBox {
+      display: flex;
+      justify-content: center;
+    }
+    .todayHotDealDetail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      height: 300px;
+    }
+    .todayHotDealImg {
+      width: 300px;
+      height: 300px;
+      margin-left: 20px;
+      justify-content: center;
+      background-position: center;
+      background-size: cover;
+      border-radius: 20%;
+    }
+  }
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 30px;
+  color: red;
+}
+
+.fa-arrow-left {
+  left: -40px;
+}
+
+.fa-arrow-right {
+  right: -40px;
+}
+
+.todayHotDealName {
+  margin: 10px 0;
+  color: black;
+  font-size: 15px;
+}
+.todayHotDealPrice {
+  font-size: 15px;
 }

@@ -1,0 +1,50 @@
+[
+{
+  "id":1,
+  "img":"./Images/MainPageImage/hotdeal1.jpg",
+  "name":"coco",
+  "price": 36000
+},
+{
+  "id":2,
+  "img":"./Images/MainPageImage/hotdeal2.jpg",
+  "name":"danial",
+  "price": 300000
+},
+{
+  "id":3,
+  "img":"./Images/MainPageImage/hotdeal3.jpg",
+  "name":"hiya",
+  "price": 505500
+},
+{
+  "id":4,
+  "img":"./Images/MainPageImage/hotdeal4.jpg",
+  "name":"lalabla",
+  "price": 400000
+},
+{
+  "id":5,
+  "img":"./Images/MainPageImage/hotdeal5.jpg",
+  "name":"syoengii",
+  "price": 34000
+},
+{
+  "id":6,
+  "img":"./Images/MainPageImage/hotdeal6.jpg",
+  "name":"dodo",
+  "price": 12000
+},
+{
+  "id":7,
+  "img":"./Images/MainPageImage/hotdeal7.jpg",
+  "name":"jason",
+  "price": 600000
+},
+{
+  "id":8,
+  "img":"./Images/MainPageImage/hotdeal8.jpg",
+  "name":"losa",
+  "price": 700000
+}
+]
