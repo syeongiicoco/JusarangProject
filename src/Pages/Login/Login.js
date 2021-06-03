@@ -21,15 +21,20 @@ class Login extends Component {
     // })
     fetch('http://10.58.3.138:8000/user/signin', {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
       body: JSON.stringify({
         email: 'johnywhisky@gmail.com',
         password: '1234qwer',
       }),
-    }).then(res => res.json());
-    // .then(data => {
-    //   localStorage.setItem('tocken', JSON.stringify(data['access']));
-    //   this.props.history.push('/mainpage');
-    // });
+    })
+      .then(res => res.json())
+      .then(data => {
+        localStorage.setItem('token', JSON.stringify(data['token']));
+        this.props.history.push('/mainpage');
+      });
     this.props.history.push('/mainpage');
   };
 
