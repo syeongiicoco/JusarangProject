@@ -27,7 +27,6 @@ class Nav extends Component {
                   카테고리
                   <i class="fas fa-chevron-down" />
                 </div>
-
                 {this.state.navHidden && (
                   <div className="downCategory">
                     {DRINKS.map((drink, key) => {
