@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 0 100px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 .footerImg {
   margin-right: 20px;
@@ -22,9 +22,8 @@
       color: lightgray;
     }
     .info {
-      // margin-left: 2px;
       margin-right: 2px;
-      font-size: 3px;
+      font-size: 12px;
       text-align: center;
       color: black;
     }
@@ -38,7 +37,7 @@
   color: black;
 }
 .makeDate {
-  font-size: 3px;
+  font-size: 10px;
   color: gray;
   margin-top: 20px;
 }
@@ -49,7 +48,7 @@
 }
 .telTitle {
   font-weight: normal;
-  font-size: 10px;
+  font-size: 13px;
   padding-bottom: 5px;
   color: #666;
 }
@@ -60,7 +59,7 @@
 }
 .text {
   margin-bottom: 5px;
-  font-size: 7px;
+  font-size: 12px;
   line-height: 1.4;
   text-align: justify;
 }

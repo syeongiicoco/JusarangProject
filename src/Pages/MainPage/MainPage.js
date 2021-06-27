@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import WINESLIDE from './MainPageData';
 import './MainPage.scss';
 import Slide from './Slide';
 
